@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -116,12 +116,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Rayen\OneDrive\Bureau\SDL2\include;C:\Users\Rayen\OneDrive\Bureau\SDL2_image-2.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\SDL2-2.0.20\include;F:\SDL2_image-2.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Rayen\OneDrive\Bureau\SDL2\lib\x64;C:\Users\Rayen\OneDrive\Bureau\SDL2_image-2.0.5\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>F:\SDL2-2.0.20\lib\x64;F:\SDL2_image-2.0.5\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -158,7 +158,6 @@
     <ClCompile Include="Warrior.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\OneDrive\Bureau\tinyxml\tinystr.h" />
     <ClInclude Include="Animation.h" />
     <ClInclude Include="Character.h" />
     <ClInclude Include="Engine.h" />
@@ -172,82 +171,8 @@
     <ClInclude Include="TextureManager.h" />
     <ClInclude Include="TileLayer.h" />
     <ClInclude Include="Timer.h" />
-    <ClInclude Include="tinyxml\tinystr.h" />
-    <ClInclude Include="tinyxml\tinyxml.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Warrior.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="tinyxml\docs\annotated.html" />
-    <None Include="tinyxml\docs\classes.html" />
-    <None Include="tinyxml\docs\classTiXmlAttribute-members.html" />
-    <None Include="tinyxml\docs\classTiXmlAttribute.html" />
-    <None Include="tinyxml\docs\classTiXmlBase-members.html" />
-    <None Include="tinyxml\docs\classTiXmlBase.html" />
-    <None Include="tinyxml\docs\classTiXmlComment-members.html" />
-    <None Include="tinyxml\docs\classTiXmlComment.html" />
-    <None Include="tinyxml\docs\classTiXmlDeclaration-members.html" />
-    <None Include="tinyxml\docs\classTiXmlDeclaration.html" />
-    <None Include="tinyxml\docs\classTiXmlDocument-members.html" />
-    <None Include="tinyxml\docs\classTiXmlDocument.html" />
-    <None Include="tinyxml\docs\classTiXmlElement-members.html" />
-    <None Include="tinyxml\docs\classTiXmlElement.html" />
-    <None Include="tinyxml\docs\classTiXmlHandle-members.html" />
-    <None Include="tinyxml\docs\classTiXmlHandle.html" />
-    <None Include="tinyxml\docs\classTiXmlNode-members.html" />
-    <None Include="tinyxml\docs\classTiXmlNode.html" />
-    <None Include="tinyxml\docs\classTiXmlPrinter-members.html" />
-    <None Include="tinyxml\docs\classTiXmlPrinter.html" />
-    <None Include="tinyxml\docs\classTiXmlText-members.html" />
-    <None Include="tinyxml\docs\classTiXmlText.html" />
-    <None Include="tinyxml\docs\classTiXmlUnknown-members.html" />
-    <None Include="tinyxml\docs\classTiXmlUnknown.html" />
-    <None Include="tinyxml\docs\classTiXmlVisitor-members.html" />
-    <None Include="tinyxml\docs\classTiXmlVisitor.html" />
-    <None Include="tinyxml\docs\deprecated.html" />
-    <None Include="tinyxml\docs\files.html" />
-    <None Include="tinyxml\docs\functions.html" />
-    <None Include="tinyxml\docs\functions_0x63.html" />
-    <None Include="tinyxml\docs\functions_0x64.html" />
-    <None Include="tinyxml\docs\functions_0x65.html" />
-    <None Include="tinyxml\docs\functions_0x66.html" />
-    <None Include="tinyxml\docs\functions_0x67.html" />
-    <None Include="tinyxml\docs\functions_0x69.html" />
-    <None Include="tinyxml\docs\functions_0x6c.html" />
-    <None Include="tinyxml\docs\functions_0x6e.html" />
-    <None Include="tinyxml\docs\functions_0x6f.html" />
-    <None Include="tinyxml\docs\functions_0x70.html" />
-    <None Include="tinyxml\docs\functions_0x71.html" />
-    <None Include="tinyxml\docs\functions_0x72.html" />
-    <None Include="tinyxml\docs\functions_0x73.html" />
-    <None Include="tinyxml\docs\functions_0x74.html" />
-    <None Include="tinyxml\docs\functions_0x75.html" />
-    <None Include="tinyxml\docs\functions_0x76.html" />
-    <None Include="tinyxml\docs\functions_enum.html" />
-    <None Include="tinyxml\docs\functions_func.html" />
-    <None Include="tinyxml\docs\functions_func_0x63.html" />
-    <None Include="tinyxml\docs\functions_func_0x64.html" />
-    <None Include="tinyxml\docs\functions_func_0x65.html" />
-    <None Include="tinyxml\docs\functions_func_0x66.html" />
-    <None Include="tinyxml\docs\functions_func_0x67.html" />
-    <None Include="tinyxml\docs\functions_func_0x69.html" />
-    <None Include="tinyxml\docs\functions_func_0x6c.html" />
-    <None Include="tinyxml\docs\functions_func_0x6e.html" />
-    <None Include="tinyxml\docs\functions_func_0x70.html" />
-    <None Include="tinyxml\docs\functions_func_0x71.html" />
-    <None Include="tinyxml\docs\functions_func_0x72.html" />
-    <None Include="tinyxml\docs\functions_func_0x73.html" />
-    <None Include="tinyxml\docs\functions_func_0x74.html" />
-    <None Include="tinyxml\docs\functions_func_0x75.html" />
-    <None Include="tinyxml\docs\functions_func_0x76.html" />
-    <None Include="tinyxml\docs\functions_rela.html" />
-    <None Include="tinyxml\docs\functions_vars.html" />
-    <None Include="tinyxml\docs\hierarchy.html" />
-    <None Include="tinyxml\docs\index.html" />
-    <None Include="tinyxml\docs\pages.html" />
-    <None Include="tinyxml\docs\tinystr_8h_source.html" />
-    <None Include="tinyxml\docs\tinyxml_8h_source.html" />
-    <None Include="tinyxml\docs\tutorial0.html" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

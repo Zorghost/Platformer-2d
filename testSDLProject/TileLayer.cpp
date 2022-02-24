@@ -35,8 +35,7 @@ void TileLayer::Render()
 							tileID = tileID + m_Tilesets[k].TileCount - m_Tilesets[k].LastID;
 							index = k;
 							break;
-						}
-					}
+						}					}
 				}
 
 				Tileset ts = m_Tilesets[index];

@@ -24,7 +24,7 @@ public :
 private :
 	Engine() {};
 	bool m_IsRunning;
-	GameMap* m_LevelMap;
+	//GameMap* m_LevelMap;
 	SDL_Window* m_window;
 	SDL_Renderer* m_Renderer;
 	static Engine* s_Instance;

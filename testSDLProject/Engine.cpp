@@ -32,7 +32,7 @@ bool Engine::Init()
 	{
 		std::cout << "Failed to Load Map " << std::endl;
 	}
-	m_LevelMap = MapParser::GetInstance()->GetMap("level1");
+	//m_LevelMap = MapParser::GetInstance()->GetMap("level1");
 	TextureManager::GetInstance()->Load("player", "C:/Users/Rayen/OneDrive/Bureau/Studium/Vertiefung in der Programmierung/resources/Medieval Warrior (Version 1.2)/Idle.png");
 	TextureManager::GetInstance()->Load("player_run", "C:/Users/Rayen/OneDrive/Bureau/Studium/Vertiefung in der Programmierung/resources/Medieval Warrior (Version 1.2)/Run.png");
 	player = new Warrior(new Properties("player" , 200 , 200 ,184 , 137));
@@ -57,7 +57,7 @@ void Engine::Quit()
 void Engine::Update()
 {
 	    float dt = Timer::GetInstance()->GetDeltaTime();
-		m_LevelMap->Update();
+		//m_LevelMap->Update();
 		player->Update(dt);
 	
 }
@@ -66,7 +66,7 @@ void Engine::Render()
 {
 	SDL_SetRenderDrawColor(m_Renderer, 124, 210, 215 , 154);
 	SDL_RenderClear(m_Renderer);
-	m_LevelMap->Render();
+	//m_LevelMap->Render();
 	player->Draw();
 	SDL_RenderPresent(m_Renderer);
 }
